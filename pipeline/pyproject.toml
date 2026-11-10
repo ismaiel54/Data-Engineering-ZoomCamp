@@ -9,7 +9,9 @@ authors = [
 requires-python = ">=3.13"
 dependencies = [
     "pandas>=3.1.1",
+    "psycopg[binary,pool]",
     "pyarrow>=26.0.1",
+    "sqlalchemy",
 ]
 
 [dependency-groups]
